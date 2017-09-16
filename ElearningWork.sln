@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainLayer", "DomainLayer", "{77BC57D9-0726-4A9B-8DCA-96054B99C002}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreLayer", "CoreLayer", "{6AAD7896-777F-4577-9B26-C1C635F2ADB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InfrastructureLayer", "InfrastructureLayer", "{9E123F5F-8A8E-498F-99DE-8D0B536CF0F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceLearningCore", "C:\Users\Administrator\Documents\My Bakkkk\Libraries\ElearningLibraries\DistanceLearningCore\DistanceLearningCore\DistanceLearningCore.csproj", "{9D711506-59FE-4717-A8FE-CA98A39FE6D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceLearningDomain", "C:\Users\Administrator\Documents\My Bakkkk\Libraries\ElearningLibraries\DistanceLearningCore\DistanceLearningModel\DistanceLearningDomain.csproj", "{EBDD1FB2-A905-4F2F-B45F-9AD9BE865F08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceLearningInfrastructure", "C:\Users\Administrator\Documents\My Bakkkk\Libraries\ElearningLibraries\DistanceLearningCore\DistanceLearningInfrastructure\DistanceLearningInfrastructure.csproj", "{085955D4-F640-4B37-BC93-7B13F673CD48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{DCC2A56F-610A-4C8B-A798-D208FA0F1962}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Elearning", "C:\inetpub\wwwroot\Elearning\", "{831E5260-1392-458F-AC06-A20286CA03BD}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4627"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\wwwroot\Elearning\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4627\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4627"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\wwwroot\Elearning\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4627\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4627"
+		SlnRelativePath = "C:\inetpub\wwwroot\Elearning\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Centralized", "C:\inetpub\wwwroot\Centralized\", "{6A67E614-DC9D-40CC-965C-86BC33A1F52F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4789"
+		Debug.AspNetCompiler.PhysicalPath = "C:\inetpub\wwwroot\Centralized\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4789\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4789"
+		Release.AspNetCompiler.PhysicalPath = "C:\inetpub\wwwroot\Centralized\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4789\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "4789"
+		SlnRelativePath = "C:\inetpub\wwwroot\Centralized\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D711506-59FE-4717-A8FE-CA98A39FE6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D711506-59FE-4717-A8FE-CA98A39FE6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D711506-59FE-4717-A8FE-CA98A39FE6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D711506-59FE-4717-A8FE-CA98A39FE6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBDD1FB2-A905-4F2F-B45F-9AD9BE865F08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBDD1FB2-A905-4F2F-B45F-9AD9BE865F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBDD1FB2-A905-4F2F-B45F-9AD9BE865F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBDD1FB2-A905-4F2F-B45F-9AD9BE865F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{085955D4-F640-4B37-BC93-7B13F673CD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085955D4-F640-4B37-BC93-7B13F673CD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085955D4-F640-4B37-BC93-7B13F673CD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085955D4-F640-4B37-BC93-7B13F673CD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831E5260-1392-458F-AC06-A20286CA03BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831E5260-1392-458F-AC06-A20286CA03BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831E5260-1392-458F-AC06-A20286CA03BD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{831E5260-1392-458F-AC06-A20286CA03BD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6A67E614-DC9D-40CC-965C-86BC33A1F52F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A67E614-DC9D-40CC-965C-86BC33A1F52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A67E614-DC9D-40CC-965C-86BC33A1F52F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A67E614-DC9D-40CC-965C-86BC33A1F52F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D711506-59FE-4717-A8FE-CA98A39FE6D4} = {6AAD7896-777F-4577-9B26-C1C635F2ADB1}
+		{EBDD1FB2-A905-4F2F-B45F-9AD9BE865F08} = {77BC57D9-0726-4A9B-8DCA-96054B99C002}
+		{085955D4-F640-4B37-BC93-7B13F673CD48} = {9E123F5F-8A8E-498F-99DE-8D0B536CF0F1}
+		{831E5260-1392-458F-AC06-A20286CA03BD} = {DCC2A56F-610A-4C8B-A798-D208FA0F1962}
+		{6A67E614-DC9D-40CC-965C-86BC33A1F52F} = {DCC2A56F-610A-4C8B-A798-D208FA0F1962}
+	EndGlobalSection
+EndGlobal
